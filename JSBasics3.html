@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function zero_negativity(arr){
+            for(var i=0;i<arr.length;i++){
+                if(arr[i]<0){
+                    return false
+                }
+            }return true
+        }
+        function is_even(num){
+            if(num % 2 ==0){
+                return true
+            }return false
+        }
+        function how_many_even(arr){
+            var count=0
+            for(var i=0;i<arr.length;i++){
+                if(is_even(arr[i])){
+                     count += 1
+                }
+            }return count + " numbers are even"
+        }
+        function create_dummy_array(n){
+            let arr=[]
+            
+            for(var i=0; i < n; i++){
+                x=Math.random() * 9
+                arr.push(x)
+
+            }
+            return arr
+        }
+
+        function random_choice(arr){
+            x=Math.floor(Math.random() * arr.length);
+            return arr[x]
+        }
+    </script>
+    
+</body>
+</html>
