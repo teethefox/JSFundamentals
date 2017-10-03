@@ -1,0 +1,28 @@
+
+    One:
+    'world'
+
+    Two:
+    'haystack'
+    'magnet'
+
+    Three:
+    'supercool'
+
+    Four:
+    Error
+
+    Five:
+    Error
+
+    Six:
+    'disco'
+    'rock'
+    'r&b'
+    'disco'
+    
+    Seven:
+    'san jose'
+    'seattle'
+    burbank'
+    'san jose'
